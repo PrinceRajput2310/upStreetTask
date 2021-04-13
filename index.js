@@ -1,6 +1,7 @@
 const { response } = require('express');
 const http = require('http'),
   axios = require('axios'),
+import {dobUserValidation,validateUserName,validateStateOfIssue} from "./UserValidation/userValidation";
   userInfo = require("./model/userInfo");
 
 const API_Key = "03aa7ba718da920e0ea362c876505c6df32197940669c5b150711b03650a78cf";
