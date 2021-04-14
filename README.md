@@ -9,5 +9,5 @@ This project consits of main index.ts file. also conists of validations folder. 
 4.After installing nodemodules, start the server.
 5.To start the server enter $ npm run dev command.
 6.Now the server running on localhost:5000.
-7.To check the Kycdetails, enter valid details and make post request in localhost:8000/checkkyc.
+7.To check the Kycdetails, enter valid details and make post request in localhost:5000/checkkyc.
 8.To stop the server press ctrl+c in terminal.
